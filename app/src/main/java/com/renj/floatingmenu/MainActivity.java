@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         floating.setOnItemMenuClickListener(new FloatingMenu.OnItemMenuClickListener() {
             @Override
             public void onItemMenuClick(View view, int position) {
-                Toast.makeText(MainActivity.this, "子菜单 - " + position, Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Submenu - " + position, Toast.LENGTH_SHORT).show();
             }
         });
     }
